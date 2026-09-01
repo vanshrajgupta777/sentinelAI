@@ -1,0 +1,7 @@
+{
+  "id": "sop-bearing-temperature",
+  "name": "Asterion SOP \u2014 Bearing Temperature Monitoring",
+  "chunks": [
+    "A sustained rise in bearing temperature > 4\u00b0C over 30 days indicates progressive wear. Plan an unscheduled inspection within 14 days and verify lubrication system performance. Document the trend in the equipment logbook."
+  ]
+}

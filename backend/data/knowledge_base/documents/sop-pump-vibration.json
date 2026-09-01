@@ -1,0 +1,7 @@
+{
+  "id": "sop-pump-vibration",
+  "name": "Asterion SOP \u2014 Pump Vibration Response",
+  "chunks": [
+    "When a centrifugal pump exceeds the ISO 10816-3 alert threshold, the operator must (a) reduce load to 80% of nameplate, (b) record vibration trend, (c) notify the reliability duty engineer. Sustained exceedance > 24h requires a borescope inspection and scheduled bearing replacement."
+  ]
+}

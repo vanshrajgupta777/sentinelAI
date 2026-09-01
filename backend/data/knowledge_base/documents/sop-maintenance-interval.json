@@ -1,0 +1,7 @@
+{
+  "id": "sop-maintenance-interval",
+  "name": "Asterion SOP \u2014 Overdue Maintenance",
+  "chunks": [
+    "Operating hours past the manufacturer's recommended overhaul interval require a documented review by the maintenance planning team. A risk-based assessment must be completed and recorded before continued operation."
+  ]
+}

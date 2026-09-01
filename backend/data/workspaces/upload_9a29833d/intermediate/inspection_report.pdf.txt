@@ -1,0 +1,13 @@
+[Page 1]
+INSPECTION REPORT - Asterion Industrial Systems
+Equipment: Pump P-204
+Inspection date: 12 Aug 2026
+Inspector: Reliability Engineering
+FINDINGS
+Abnormal vibration readings exceeded the ISO 10816-3 alert threshold by 18 percent.
+Bearing temperature is trending upward over the last 30 days, rising 4.2 degrees C.
+Maintenance interval is overdue; the last overhaul was 11200 operating hours ago, exceeding the 10000 hour recommended window.
+A borescope inspection is recommended before returning the equipment to full duty.
+OBSERVATIONS
+No active leaks observed. Coupling alignment acceptable. Casing paint in good condition.
+Lubrication system performing within design parameters.
