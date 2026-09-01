@@ -140,13 +140,3 @@ findings + recommendations; adding a sandbox runner is a clean
 drop-in (`backend/app/agents/sandbox.py`) once Docker or Podman
 is available.
 
-## Honesty
-
-* No external AI API is ever called.
-* When the backend is unreachable, the frontend falls back to
-  the in-browser mock and displays a clearly labelled MOCK MODE
-  banner.
-* When Ollama is not detected, the backend uses the in-process
-  local engine and the UI shows `MOCK MODE` — not `REAL LOCAL`.
-* Application-level isolation ≠ physical air-gap. The Network
-  Security page is explicit about this.
