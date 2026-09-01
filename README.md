@@ -5,7 +5,7 @@ government knowledge work. Brings AI to the organization's data
 instead of sending the organization's data to AI.
 
 This repository contains both the Next.js frontend and the local
-Python FastAPI backend that powers the real local AI workflow.
+Python FastAPI backend that powers the real local AI workflow
 
 ```
                     SentinelAI
