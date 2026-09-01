@@ -4,7 +4,7 @@ A local-first AI workbench for confidential industrial, defence and
 government knowledge work. Brings AI to the organization's data
 instead of sending the organization's data to AI.
 
-This repository contains both the Next.js frontend and the local
+this repository contains both the Next.js frontend and the local
 Python FastAPI backend that powers the real local AI workflow
 
 ```
