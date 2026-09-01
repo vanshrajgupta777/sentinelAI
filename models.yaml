@@ -1,0 +1,57 @@
+# SentinelAI Model Registry (optional)
+# -------------------------------------
+# The backend reads this file at startup if it is present. It binds
+# logical capabilities (id) to a provider + concrete model identifier.
+# All values can also be supplied via environment variables; env vars
+# win over the file when both are present.
+#
+# Set LLM_PROVIDER=ollama and OLLAMA_BASE_URL=http://localhost:11434
+# to talk to a real local Ollama server.
+
+provider: ollama
+base_url: http://localhost:11434
+
+models:
+  - id: general
+    name: Local-General-LLM
+    provider: ollama
+    model: llama3.1:8b
+    capabilities:
+      - document-analysis
+      - reasoning
+      - summarization
+      - report-generation
+    version: v1.4.2
+    parameters: "8B"
+
+  - id: coding
+    name: Local-Code-Model
+    provider: ollama
+    model: qwen2.5-coder:7b
+    capabilities:
+      - code-generation
+      - code-review
+      - debugging
+    version: v1.1.0
+    parameters: "7B"
+
+  - id: vision
+    name: Local-Vision-Model
+    provider: ollama
+    model: llava:7b
+    capabilities:
+      - image-analysis
+      - engineering-drawing
+    version: v0.9.6
+    parameters: "7B"
+
+  - id: ocr
+    name: Local-OCR
+    provider: ollama
+    model: paddle-ocr
+    capabilities:
+      - ocr
+      - scanned-documents
+      - text-extraction
+    version: v2.3.1
+    parameters: "—"
